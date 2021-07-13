@@ -86,3 +86,28 @@ header {
   font-weight: 400;
   color: #6c6c6c;
 }
+
+/*--------------------------
+          Footer
+----------------------------*/
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-img {
+  width: 483.87px;
+  height: 110px;
+}
+.social-link {
+  text-decoration: none;
+}
+.fab {
+  padding-right: 14px;
+  color: #e02c6d;
+}
+.copyright {
+  font-size: 18px;
+}
