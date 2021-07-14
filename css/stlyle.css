@@ -144,3 +144,60 @@ header {
 .copyright {
   font-size: 18px;
 }
+/* ------------------
+      Media Queries
+--------------------- */
+/* -------------------
+      Mobile devices
+---------------------- */
+@media only screen and (max-width: 688px) {
+  header {
+    width: 100%;
+    height: 695px;
+  }
+  .container {
+    margin-left: 15px;
+    margin-top: 47px;
+    margin-right: 15px;
+  }
+  .intro {
+    flex-direction: Column;
+    justify-content: center;
+  }
+  .intro-info {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .heading-title {
+    margin-top: 112px;
+    margin-left: 16px;
+    margin-bottom: 30px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #ffffff;
+  }
+  .button {
+    margin-left: 19px;
+  }
+  .intro img {
+    width: 329px;
+    height: 259.17px;
+    margin-top: 50px;
+    margin-left: 15px;
+  }
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .videos {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .video {
+    width: 300px;
+    height: 270px;
+  }
+}
