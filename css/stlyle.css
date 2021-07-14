@@ -152,7 +152,7 @@ header {
 ---------------------- */
 @media only screen and (max-width: 688px) {
   header {
-    width: 100%;
+    width: 360px;
     height: 695px;
   }
   .container {
@@ -199,5 +199,17 @@ header {
   .video {
     width: 300px;
     height: 270px;
+  }
+  .email {
+    padding: 10px 24px;
+    width: 50%;
+    border: 2px solid #e02c6d;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .footer-img {
+    width: 300px;
+    height: 110px;
   }
 }
