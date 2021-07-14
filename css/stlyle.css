@@ -86,9 +86,41 @@ header {
   font-weight: 400;
   color: #6c6c6c;
 }
-
 /*--------------------------
-          Footer
+           Videos
+----------------------------*/
+.euro {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.copa {
+  margin-bottom: 70px;
+}
+.videos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*-------------
+ Subscription 
+ --------------*/
+.subscription {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.email {
+  padding: 10px 24px;
+  width: 50%;
+  text-align: center;
+  border: 2px solid #e02c6d;
+  font-weight: 700;
+  font-size: 24px;
+}
+/*--------------------------
+           Footer
 ----------------------------*/
 
 .footer-items {
@@ -96,6 +128,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 70px;
 }
 .footer-img {
   width: 483.87px;
